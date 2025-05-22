@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/Arxiv-📃-yellow?">
   </a> 
   
-  <a href="https://youtu.be/CqoVZQdvxU4" target='_blank'>
+  <a href="https://youtu.be/7s27-LLyvx4" target='_blank'>
     <img src="https://img.shields.io/badge/Video-📹-red?">
   </a> 
 </p>
