@@ -18,6 +18,10 @@
   <a href="https://youtu.be/7s27-LLyvx4" target='_blank'>
     <img src="https://img.shields.io/badge/Video-📹-red?">
   </a> 
+  <!-- 新增补充材料链接 -->
+  <a href="https://github.com/inin-drops/ChatStitch/blob/main/supplementary.pdf" target='_blank'>
+    <img src="https://img.shields.io/badge/Supplementary-📑-purple?">
+  </a>
 </p>
 
  ## 🏠  Abstract
@@ -36,7 +40,7 @@ If you find our work helpful, please cite:
 ```bibtex
 @article{ChatStitch,
       title={ChatStitch: Visualizing Through Structures via Surround-View Unsupervised Deep Image Stitching with Collaborative LLM-Agents}, 
-      author={Hao Liang and Zhipeng Dong and Yi Yang and Mengyin Fu},
+      author={Hao Liang and Zhipeng Dong and Kaixin Chen and Jiyuan Guo and Yufeng Yue and Yi Yang and Mengyin Fu},
       year={2025},
       eprint={2503.14948},
       archivePrefix={arXiv},
