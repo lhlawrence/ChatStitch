@@ -1,0 +1,23 @@
+ingp_file_path: ./data/nerf_assets/e300-2/e300_cropbox.ingp
+
+window_width: 1920
+window_height: 1080
+window_hidden: true
+
+# # e300 模型
+# body_nerf_rotation_x: -90.0  # 先绕x轴旋转
+# body_nerf_rotation_z: -22.5  # 再绕z轴旋转
+# body_nerf_rotation_y: 0.0  # 最后绕y轴旋转
+
+# nerf_body_translation_x: 0.09
+# nerf_body_translation_y: 0.1
+# nerf_body_translation_z: -0.3
+
+# e300-2 模型
+body_nerf_rotation_y: -78.0  # 先绕y轴旋转
+body_nerf_rotation_x: -86.0  # 再绕x轴旋转
+body_nerf_rotation_z: -0.0  # 再绕z轴旋转
+
+nerf_body_translation_x: -0.05
+nerf_body_translation_y: 0.0
+nerf_body_translation_z: -0.35

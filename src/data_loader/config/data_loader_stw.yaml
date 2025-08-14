@@ -1,0 +1,13 @@
+task: STW
+
+carNums: 2
+sceneNums: 4
+playScene: 4
+pubHz: 30.0
+offsetTime: -1.9
+
+# 文件路径
+datasetPath: ./background/STW/  # 数据集路径
+panoramaPath: SurroundView/VID_20231020_172334/  # 相对于 datasetPath，下同
+localizationCsvPath_A: Localization/Car-A/
+localizationCsvPath_B: Localization/Car-B/

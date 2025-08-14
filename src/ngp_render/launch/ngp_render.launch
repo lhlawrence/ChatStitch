@@ -1,0 +1,8 @@
+<launch>
+  <!-- 启动 ngp_render_node 节点 -->
+  <node name="ngp_render_node" pkg="ngp_render" type="ngp_render_node" 
+        required="true" clear_params="true" output="screen" >
+    <rosparam command="load" file="$(find ngp_render)/config/ngp_render_cfg.yaml"/>
+  </node>
+  
+</launch>

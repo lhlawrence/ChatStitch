@@ -1,0 +1,46 @@
+scene_name: &scene_name 6-surround
+
+scene:
+  data_root: ./data
+  scene_name: *scene_name
+  scene_num : 2
+
+  # suppose these files are under $data_root/$scene_name/ 
+  ext_int_file: 'cams_meta.npy'          # extrinsic and intrinsic parameters
+  init_img_file: 'surround0.png'         # initial image. Automatically generated if not exists. Should be different if `is_wide_angle` is different
+  bbox_file: '3d_boxes.npy'           # 3d bounding boxes
+  frames: 450                          # number of frames to stitch
+  fps: 5
+  multi_process_num: 5                       # multiple process num of foreground rendering
+  
+  # under root directory
+  cache_dir: 'results/cache'          # cache directory
+  output_dir: 'results'               # output directory
+  save_cache: true                    # whether to save cache
+
+agents:
+  asset_select_agent:
+    assets_dir: ./data/nerf_assets   # directory of 3D assets
+
+  background_stitch_agent:
+    background_stitch_dir: chatstitch/Stitch
+  
+  task_management_agent:
+    none
+
+  motion_agent: 
+    motion_tracking: False
+  
+  view_change_agent:
+    none
+
+  foreground_rendering_agent:
+    none
+
+  pose_measurement_agent:
+    localization_dataset_path: './background/STW/Localization'  # localization results
+    localization_csv_paths: ['Car-A/A.csv', 'Car-B/B.csv']
+
+  perspective_measurement_agent:
+    none
+  

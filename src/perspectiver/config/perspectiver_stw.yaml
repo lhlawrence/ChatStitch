@@ -1,0 +1,17 @@
+task: STW
+
+# OpenCV 3D 浏览参数
+browse_cam_yaw: 90
+browse_cam_pitch: 0
+browse_fov_h: 90
+browse_fov_v: 50
+browse_img_width: 900
+browse_img_height: 500
+
+# 目标车辆 BBox 参数
+target_car_bbox_front: 2.2
+target_car_bbox_back: 1.8
+target_car_bbox_left: 1.0
+target_car_bbox_right: 1.0
+target_car_bbox_up: -0.2
+target_car_bbox_down: 2.3

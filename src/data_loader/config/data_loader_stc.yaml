@@ -1,0 +1,14 @@
+task: STC
+
+sceneNums: 1
+playScene: 1
+startInsta360Idx: 500  # Insta360 视频起始帧序号
+pubHz: 30.0
+offsetTime: 15.0
+
+# 文件路径
+datasetPath: ./background/STC/  # 数据集路径
+insta360Path: Insta360/VID_20230419_175200/  # 相对于 datasetPath
+insta360Csv: pano.csv  # insta360Path 下的 CSV 文件名
+ladybugPath: Ladybug/  # 相对于 datasetPath
+ladybugCsv: Ladybug-stream_Panoramic_3500x1750_9000kbps.csv  # ladybugPath 下的 CSV 文件名

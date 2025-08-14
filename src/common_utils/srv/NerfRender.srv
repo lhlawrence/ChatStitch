@@ -1,0 +1,10 @@
+# render.srv
+
+# 请求，渲染用的相机视角
+float32[3] cam_view_dir  # Nerf 坐标系下的相机视线朝向向量
+float32[3] cam_pos_offset  # Nerf 坐标系下的相机位置偏移量
+float32 scale  # 尺度因子
+
+---
+# 响应，渲染图像
+sensor_msgs/Image image
