@@ -28,6 +28,10 @@
 Surround-view perception has garnered significant attention for its ability to enhance the perception capabilities of autonomous driving vehicles through the exchange of information with surrounding cameras. However, existing surround-view perception systems are limited by inefficiencies in unidirectional interaction pattern with human and distortions in overlapping regions exponentially propagating into non-overlapping areas. To address these challenges, this paper introduces ChatStitch, a surround-view human-machine co-perception system capable of unveiling obscured blind spot information through natural language commands integrated with external digital assets. To dismantle the unidirectional interaction bottleneck, ChatStitch implements a cognitively grounded closed-loop interaction multi-agent framework based on Large Language Models. To suppress distortion propagation across overlapping boundaries, ChatStitch proposes SV-UDIS, a surround-view unsupervised deep image stitching method under the non-global-overlapping condition. We conducted extensive experiments on the UDIS-D, MCOV-SLAM open datasets, and our real-world dataset. Specifically, our SV-UDIS method achieves state-of-the-art performance on the UDIS-D\footnote{we extract a subset of data from the original UDIS-D dataset for the multi-image stitching experiment.} dataset for 3, 4, and 5 image stitching tasks, with PSNR improvements of 9\%, 17\%, and 21\%, and SSIM improvements of 8\%, 18\%, and 26\%, respectively.
 <img src="./chatstitch.png">
 
+## SV-UDIS
+
+Please refer to [SV-UDIS](https://github.com/dzp62442/SV-UDIS)
+
 ## 🛠  Install
 
 ### Requirements
@@ -37,13 +41,6 @@ Surround-view perception has garnered significant attention for its ability to e
 - PyTorch
 - CUDA
 - OpenAI API Key
-
-## Datasets
-
-### SV-UDIS
-
-- For tow-image stitching: [UDIS-D-E](https://huggingface.co/datasets/dzp62442/SV-UDIS/blob/main/UDIS-D-E.zip)
-- For multi-image stitching: [SV-UDIS-D](https://huggingface.co/datasets/dzp62442/SV-UDIS/blob/main/SV-UDIS-D.zip)
 
 ## 🔗 Citation
 
